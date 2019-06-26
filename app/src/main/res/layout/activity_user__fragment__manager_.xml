@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.User_Fragment_Manager_Activity">
+<FrameLayout
+    android:id="@+id/frag_contain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+    <!--<fragment-->
+        <!--android:id="@+id/profile_fragment"-->
+        <!--android:name="KamyarRostamiarcare.User.Profilefragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/about_fragment"-->
+        <!--android:name="KamyarRostamiarcare.User.Aboutfragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+</LinearLayout>

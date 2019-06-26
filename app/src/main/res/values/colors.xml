@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#117695</color>
+    <color name="colorPrimaryDark">#11899f</color>
+    <color name="colorAccent">#d3d9e0</color>
+    <color name="colorOceanDark">#007774</color>
+    <color name="colorOceanLight">#059a9c</color>
+    <color name="AppWhite">#f1f1f2</color>
+    <color name="AppWhiteTrans">#d2f1f1f2</color>
+    <color name="Appgrey">#b6bfbfbf</color>
+    <color name="Appdarkgrey">#202020</color>
+    <color name="Appdarkgreytrans">#d0202020</color>
+    <color name="AppDarkTrans">#d2131313</color>
+</resources>

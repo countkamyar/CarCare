@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "188540281624",
+    "firebase_url": "https://carcare-7f566.firebaseio.com",
+    "project_id": "carcare-7f566",
+    "storage_bucket": "carcare-7f566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188540281624:android:a0693fd10f8dae93",
+        "android_client_info": {
+          "package_name": "com.persproj.KamyarRostami.carcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188540281624-an3jb9cnah53mmu8av6ns0s4ucto2n4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYPmbKGRZxMBzK0LRRdnDwjkOWfzlpgEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188540281624-an3jb9cnah53mmu8av6ns0s4ucto2n4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

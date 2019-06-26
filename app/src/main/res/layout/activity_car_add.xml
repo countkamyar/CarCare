@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carfix"
+    tools:context=".CarAdd.CarAddActivity">
+
+    <TextView
+        android:id="@+id/car_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/car_model"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/car_model_spinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/car_model"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/AppDarkTrans"
+        android:entries="@array/car_arrays"
+        android:outlineAmbientShadowColor="@color/Appdarkgrey"
+        android:prompt="@string/choose_a_model"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/car_kilometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_model_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/car_kilometer"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/mileage_picker"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/car_kilometer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/AppDarkTrans"
+        android:solidColor="@color/Appdarkgrey"
+        android:soundEffectsEnabled="true" />
+
+    <TextView
+        android:id="@+id/Plate_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mileage_picker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/plate_number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear_plate"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/Plate_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/carlicenseplate"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/plate1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="35dp"
+            android:layout_weight="20"
+            android:hint="12"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/Appdarkgrey"
+            android:textColorHint="@color/AppDarkTrans"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/plate2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="20"
+            android:hint="ب"
+            android:imeOptions="actionNext"
+            android:inputType="textShortMessage"
+            android:padding="5dp"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="@color/Appdarkgrey"
+            android:textColorHint="@color/AppDarkTrans"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/plate3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="35"
+            android:hint="123"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/Appdarkgrey"
+            android:textColorHint="@color/AppDarkTrans"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/plate4"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="22"
+            android:hint="11"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/Appdarkgrey"
+            android:textColorHint="@color/AppDarkTrans"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/annual_usage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_plate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/monthly_usage"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/usage_picker"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/annual_usage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/AppDarkTrans"
+        android:solidColor="@color/Appdarkgrey"
+        android:soundEffectsEnabled="true" />
+
+    <Button
+        android:id="@+id/car_add_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/usage_picker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:text="@string/add"
+        android:textColor="@color/AppWhite"/>
+
+
+</RelativeLayout>

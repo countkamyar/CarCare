@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CarCare</string>
+    <string name="enter_number_Text">Please enter your phone number:</string>
+    <string name="after_SMS_send">A text will be sent to you in order to sign in.\n please enter it down here:</string>
+    <string name="send_sms_button">Send SMS</string>
+    <string name="sign_in">Sign in</string>
+    <string name="retry_text">You can retry sending after 60 seconds by clicking this text</string>
+    <string name="About">About</string>
+    <string name="car_info">Cars</string>
+    <string name="Signout">Sign out</string>
+    <string name="profile">Profile</string>
+    <string name="navid">nav_id</string>
+    <string name="profile_info">Please complete your personal information and save it</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email Address</string>
+    <string name="Phone">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="Users_DB">users</string>
+    <string name="monthly_usage">Monthly Usage(Km)</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_kilometer">Mileage(Km)</string>
+    <string name="car_speed">Speed(Km/h)</string>
+    <string name="car_guarantee">Guarantee(yrs)</string>
+    <string name="car_creation_date">Model year</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="choose_a_model">Choose a model</string>
+    <string name="about_text">Developed by Kamyar Rostami</string>
+    <string name="search_bar">Search by plate number e.g. 00D13511 </string>
+    <string name="car_db_name">cars</string>
+    <string name="channel_name">Channel1</string>
+    <string name="channel_description">channel1description</string>
+    <string name="notification_message">Your Car Needs Service!</string>
+    <string name="notification_title">Car plate No: </string>
+    <string name="network_dialog_title">NO Network!</string>
+    <string name="network_dialog_message">Please check your connection and launch again.</string>
+    <string name="ok_button">Ok</string>
+    <string-array name="car_arrays">
+        <item>Audi</item>
+        <item>Benz</item>
+        <item>BMW</item>
+        <item>Dena</item>
+        <item>L-90</item>
+        <item>Pride</item>
+        <item>Samand</item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
