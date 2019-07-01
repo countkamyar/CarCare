@@ -23,7 +23,9 @@ import com.persproj.KamyarRostami.carcare.R;
 import com.persproj.KamyarRostami.carcare.User.Sign_in_Activity;
 import com.persproj.KamyarRostami.carcare.User.User_Fragment_Manager_Activity;
 import com.google.firebase.auth.FirebaseAuth;
-
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 
 public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
@@ -46,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
         setonclick();
-
+        AppCenter.start(getApplication(), "d674cc3b-3126-4e6a-916f-70ef457de5b1",
+                Analytics.class, Crashes.class);
     }
 
 

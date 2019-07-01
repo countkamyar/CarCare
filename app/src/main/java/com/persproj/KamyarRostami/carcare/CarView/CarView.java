@@ -43,8 +43,6 @@ public class CarView extends AppCompatActivity {
         mileageCalculator = new MileageCalculator(mContext);
         firebase = new Firebase(mAuth, mContext);
         user = mAuth.getCurrentUser();
-        boolean b = mileageCalculator.mileageCalculator(1000, "Audi", 1);
-        Log.d(TAG, "onCreate: blooean mileagecalculator: " + b);
         retreiveData();
     }
 
